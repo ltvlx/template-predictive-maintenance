@@ -4,6 +4,7 @@ variables:
   - name: input
     inputType: InputTopic
     description: This is the input topic
+    defaultValue: first_topic
     required: true
   - name: INFLUXDB_HOST
     inputType: Secret
